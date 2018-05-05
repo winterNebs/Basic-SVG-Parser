@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\4or\4or\svgReader.cpp" />
+    <ClInclude Include="svgReader.h" />
+    <ClInclude Include="xmlTag.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\4or\4or\svgReader.h" />
-    <ClInclude Include="..\..\4or\4or\xmlTag.h" />
+    <ClCompile Include="svgReader.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\4or\4or\svgReader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="xmlTag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="svgReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\4or\4or\svgReader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\4or\4or\xmlTag.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="svgReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
